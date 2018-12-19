@@ -3,8 +3,10 @@
   <body>
     <h1>Sample web page hosted</h1>
     <script src="./blocksdk.js"></script>
+    <script src="./blockcontent.js"></script>
     <script>
       var sdk = new window.sfdc.BlockSDK();
+      sdk.setContent('<h1>sample</h1>')
       // do something with the sdk
     </script>
   </body>
