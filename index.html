@@ -1,14 +1,15 @@
 <html>
   <head></head>
+  <script src="./blocksdk.js"></script>
+  <script src="./blockcontent.js"></script>
+  <script>
+    var sdk = new window.sfdc.BlockSDK();
+    
+    // do something with the sdk
+  </script>
   <body>
     <label>Asset Name</label>
     <input type="text" id='assetName'></input>
     <button onclick='setContentToBuilder()'>Select</button>
-    <script src="./blocksdk.js"></script>
-    <script src="./blockcontent.js"></script>
-    <script>
-      var sdk = new window.sfdc.BlockSDK();
-      
-      // do something with the sdk
-    </script>
+
   </body>
