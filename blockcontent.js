@@ -6,7 +6,7 @@ var setContentToBuilder = function() {
     console.log(assetName);
     // sdk.setContent('<h1>'+ assetName + '</h1>')
     console.log('content set');
-    sdk.setContent('<img src="https://www.opentext.com/file_source/OpenText/en_US/PNG/opentext-zoom-crop-screen-otmm-16-3.png"/>');
+    //sdk.setContent('<img src="https://www.opentext.com/file_source/OpenText/en_US/PNG/opentext-zoom-crop-screen-otmm-16-3.png"/>');
     sdk.setContent('<img src="https://www.opentext.com/file_source/OpenText/en_US/PNG/OTMM%20-%20Facet%20Screen%20Shot%2016x9.png"/>');
 }
 
