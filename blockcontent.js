@@ -4,7 +4,8 @@ var setContentToBuilder = function() {
    
     var assetName = document.getElementById('assetName').value;
     console.log(assetName);
-    sdk.setContent('<h1>'+ assetName + '</h1>')
+    // sdk.setContent('<h1>'+ assetName + '</h1>')
+    sdk.setContent('<img src="https://www.opentext.com/file_source/OpenText/en_US/PNG/opentext-zoom-crop-screen-otmm-16-3.png"/');
 }
 
 
